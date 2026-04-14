@@ -50,8 +50,6 @@
     }
     .hand {
       stroke-linecap: round;
-      transform-origin: 84px 84px;
-      transition: transform 0.15s cubic-bezier(0.4, 2.3, 0.6, 1);
     }
     .hand-hour {
       stroke: #333333;
@@ -62,11 +60,10 @@
       stroke-width: 3.2;
     }
     .hand-sec {
-      stroke: #e5cefa;
+      stroke: #ca88fb;
       stroke-width: 1.6;
     }
-    .center-outer { fill: #dffb76; stroke: #333; stroke-width: 1.3; }
-    .center-inner { fill: #f6f5f3; }
+    .center-outer { fill: #dffb76; stroke: #333; stroke-width: 2; }
   </style>
 </head>
 <body>
@@ -78,8 +75,7 @@
       <line class="hand hand-min"  x1="84" y1="84" x2="84" y2="28"></line>
       <line class="hand hand-sec"  x1="84" y1="90" x2="84" y2="22"></line>
 
-      <circle class="center-outer" cx="84" cy="84" r="5"></circle>
-      <circle class="center-inner" cx="84" cy="84" r="1.6"></circle>
+      <circle class="center-outer" cx="84" cy="84" r="4"></circle>
     </svg>
   </div>
 
